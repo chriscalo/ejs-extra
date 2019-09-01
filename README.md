@@ -1,6 +1,6 @@
 # ejs-extra
 
-A utility for rendering EJS templates with a few enhancements.
+A utility for rendering [EJS templates][ejs-site] with a few enhancements.
 
 Installation:
 
@@ -35,6 +35,7 @@ Features:
 TODO:
 - [ ] async rendering
 - [ ] `renderString()` function
-- [ ] create express view engine ([docs][1])
+- [ ] create express view engine ([docs][express-engines])
 
-[1]: https://expressjs.com/en/advanced/developing-template-engines.html
+[ejs-site]: https://ejs.co
+[express-engines]: https://expressjs.com/en/advanced/developing-template-engines.html
