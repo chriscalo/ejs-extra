@@ -34,7 +34,7 @@ Features:
 
 TODO:
 - [ ] async rendering
-- [ ] `renderString()` function
+- [ ] separate functions for string a file rendering
 - [ ] create express view engine ([docs][express-engines])
 
 [ejs-site]: https://ejs.co
