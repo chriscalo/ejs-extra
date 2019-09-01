@@ -1,4 +1,4 @@
-# ejs-extra
+# @chriscalo/ejs-extra
 
 A utility for rendering [EJS templates][ejs-site] with a few enhancements.
 
