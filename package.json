@@ -20,7 +20,7 @@
     "microbundle": "^0.11.0"
   },
   "dependencies": {
-    "@chriscalo/file": "^0.0.3",
+    "@chriscalo/file": "^0.1.0",
     "caller": "^1.0.1",
     "ejs": "^2.6.2",
     "ejs-lint": "^0.3.0"
