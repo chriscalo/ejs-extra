@@ -334,10 +334,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@chriscalo/file@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@chriscalo/file/-/file-0.0.3.tgz#d1b0aa9c75877473ba79282f6e07501bcfa9766e"
-  integrity sha512-4i7pRIFwrRN8V/deb3QqYhRJzori4lVejYLCwAC/mHd0RCJ2xRhAh9fVUpyYzO07h4bfbVDNhF9cnxcYXuxekw==
+"@chriscalo/file@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@chriscalo/file/-/file-0.1.0.tgz#c03fb6db50139dbfab88d002e3ea05cc2508aed2"
+  integrity sha512-S9jzjm4pub7d5nyt+nka9BJV1IB9jxzyeIbqduoY2a7N4hiMtpwL+DcAohgo2W24kHh3oa+4wAMuBLTHx7Kxiw==
   dependencies:
     caller "^1.0.1"
 
