@@ -1,0 +1,28 @@
+{
+  "name": "@chriscalo/ejs-extra",
+  "version": "0.0.0",
+  "description": "A utility for rendering EJS templates with a few enhancements.",
+  "main": "dist/index.js",
+  "module": "index.js",
+  "source": "index.js",
+  "repository": "https://github.com/chriscalo/ejs-extra.git",
+  "author": "Chris Calo <chris.calo@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava",
+    "test:watch": "ava --watch",
+    "build": "microbundle --target=node --format=cjs",
+    "build:watch": "microbundle watch --target=node --format=cjs"
+  },
+  "devDependencies": {
+    "ava": "^2.3.0",
+    "esm": "^3.2.25",
+    "microbundle": "^0.11.0"
+  },
+  "dependencies": {
+    "@chriscalo/file": "^0.0.3",
+    "caller": "^1.0.1",
+    "ejs": "^2.6.2",
+    "ejs-lint": "^0.3.0"
+  }
+}
