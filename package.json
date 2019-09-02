@@ -9,13 +9,14 @@
   "author": "Chris Calo <chris.calo@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "ava",
-    "test:watch": "ava --watch",
+    "test": "ava --verbose",
+    "test:watch": "ava --watch --verbose",
     "build": "microbundle --target=node --format=cjs",
     "build:watch": "microbundle watch --target=node --format=cjs"
   },
   "devDependencies": {
     "ava": "^2.3.0",
+    "chai": "^4.2.0",
     "esm": "^3.2.25",
     "microbundle": "^0.11.0"
   },
@@ -24,5 +25,12 @@
     "caller": "^1.0.1",
     "ejs": "^2.6.2",
     "ejs-lint": "^0.3.0"
+  },
+  "ava": {
+    "require": [
+      "esm"
+    ],
+    "babel": false,
+    "failWithoutAssertions": false
   }
 }
