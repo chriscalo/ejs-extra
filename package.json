@@ -1,6 +1,6 @@
 {
   "name": "ejs-plus",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A utility for rendering EJS templates with enhancements.",
   "main": "dist/index.js",
   "module": "index.js",
