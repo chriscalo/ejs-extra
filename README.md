@@ -1,21 +1,22 @@
-# @chriscalo/ejs-extra
+# ejs-plus
 
-A utility for rendering [EJS templates][ejs-site] with a few enhancements.
+A utility for rendering [EJS templates][ejs-site] with enhancements.
 
 Installation:
 
 ``` sh
-yarn add @chriscalo/ejs-extra
+yarn add ejs-plus
 # or
-npm install @chriscalo/ejs-extra
+npm install ejs-plus
 ```
 
 Usage:
 
 ``` js
+const { render } = require("ejs-plus");
+
 const html = render("./foo.ejs", {
-  req,
-  res,
+  foo: "bar",
   list: [ 1, 2, 3 ],
 });
 ```
@@ -24,7 +25,10 @@ const html = render("./foo.ejs", {
 <%
 const util = require("./path/to/some/util.js");
 %>
-<%= req.originalUrl %>
+<%= foo %>
+<% for (const i of list) { %>
+  <%= i %>
+<% } %>
 ```
 
 Features:
@@ -34,7 +38,7 @@ Features:
 
 TODO:
 - [ ] async rendering
-- [ ] separate functions for string a file rendering
+- [ ] separate functions for string and file rendering
 - [ ] create express view engine ([docs][express-engines])
 
 [ejs-site]: https://ejs.co
