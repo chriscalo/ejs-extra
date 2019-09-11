@@ -34,7 +34,7 @@ const util = require("./path/to/some/util.js");
 Features:
 - use `require()` in EJS files
 - a better `include()` function with support for absolute, relative, and module paths
-- helpful errors messages via ejs-lint
+- helpful errors messages via `ejs-lint`
 
 TODO:
 - [ ] async rendering
