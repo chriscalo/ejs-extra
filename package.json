@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "module": "index.js",
   "source": "index.js",
-  "repository": "https://github.com/chriscalo/ejs-extra.git",
+  "repository": "https://github.com/chriscalo/ejs-plus.git",
   "author": "Chris Calo <chris.calo@gmail.com>",
   "license": "MIT",
   "scripts": {
