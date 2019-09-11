@@ -2,7 +2,7 @@ import { createRequireFromPath as createRequire } from "module";
 import ejs from "ejs";
 import ejsLint from "ejs-lint";
 import caller from "caller";
-import { file, resolve } from "@chriscalo/file";
+import { file, resolve } from "ez-file";
 
 
 export function render(templatePath, data) {

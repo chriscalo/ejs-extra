@@ -4,11 +4,11 @@ var module$1 = require('module');
 var ejs = _interopDefault(require('ejs'));
 var ejsLint = _interopDefault(require('ejs-lint'));
 var caller = _interopDefault(require('caller'));
-var file = require('@chriscalo/file');
+var ezFile = require('ez-file');
 
 function render(templatePath, data) {
-  var absolutePath = file.resolve(templatePath, caller());
-  var templateContent = file.file(absolutePath);
+  var absolutePath = ezFile.resolve(templatePath, caller());
+  var templateContent = ezFile.file(absolutePath);
 
   try {
     return ejs.render(templateContent, Object.assign({}, data,
@@ -22,7 +22,7 @@ function render(templatePath, data) {
 
 function createInclude(parentPath, data) {
   return function (includePath, includeData) {
-    var templatePath = file.resolve(includePath, parentPath);
+    var templatePath = ezFile.resolve(includePath, parentPath);
     return render(templatePath, Object.assign({}, data,
       includeData));
   };
