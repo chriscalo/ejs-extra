@@ -1,6 +1,6 @@
 {
   "name": "@chriscalo/ejs-extra",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A utility for rendering EJS templates with a few enhancements.",
   "main": "dist/index.js",
   "module": "index.js",

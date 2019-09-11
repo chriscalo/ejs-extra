@@ -1,5 +1,7 @@
 # @chriscalo/ejs-extra
 
+# DEPRECATED. See [ejs-plus](https://www.npmjs.com/package/ejs-plus)
+
 A utility for rendering [EJS templates][ejs-site] with a few enhancements.
 
 Installation:
