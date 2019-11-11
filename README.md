@@ -27,7 +27,7 @@ const util = require("./path/to/some/util.js");
 %>
 <%= foo %>
 <% for (const i of list) { %>
-  <%= i %>
+  <%= util.doThing(i) %>
 <% } %>
 ```
 
