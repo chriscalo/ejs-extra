@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "caller": "^1.0.1",
-    "ejs": "^2.6.2",
+    "ejs": "^3.1.7",
     "ejs-lint": "^0.3.0",
     "ez-file": "^0.1.2"
   },
